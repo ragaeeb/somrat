@@ -25,24 +25,24 @@ hero:
 fullscreen_nav:
   enable: true
   bg_image: "images/backgrounds/full-nav-bg.jpg"
-  first_name: "MacGyver"
-  last_name: "SOMRAT"
+  first_name: "Synonymous"
+  last_name: "Arts"
 
 ########################### About ##################################
 about:
   enable: true
   image: "images/backgrounds/portrait.jpg"
-  title: "KNOW MORE <br> ABOUT ME"
-  content: "It's Somrat, Professional Web Developer. I love to write code, it's my passion. I am here to help you, i am here to design your web page. i can help you to describe yourself in the best way.<br>No matter how difficult your web page is, i will find an easy way and complete your work anyway. Stay connect with me............😊"
+  title: "ABOUT US"
+  content: "Synonymous Arts has been involved into Graphic Design and Web Development for over 15 years. We have built many brands, delivered countless projects, replied to too many messages and emails, and we lost track of just how many quality revisions we produced. More recently Synonymous Arts has explored into different stacks of the digital space. We now can deliver across multiple stacks to help build brands from start to finish. From the initial logo ideas, to flyers, book covers, to video splash intros, to audio editing and mastering, to actual video production, to website building, Synonymous Arts is the choice for production-ready fast deliverables."
   # button
   button:
     enable: true
-    label: "DOWNLOAD MY CV"
-    link: "#" # you can put your cv in static folder and give the path here.
+    label: "Tell Us About Your Project"
+    link: "https://docs.google.com/forms/d/1MBLdHZn3FgACQbJ_Gs3f5yTNih27WwVEISdeWLZdCso" # you can put your cv in static folder and give the path here.
 
 ###########################3 Experience ##############################
 experience:
-  enable: true
+  enable: false
   title: "EXPERIENCE"
   experience_list:
     # experience item loop
@@ -65,7 +65,7 @@ experience:
 
 ############################### Skill #################################
 skill:
-  enable: true
+  enable: false
   title: "SKILL"
   skill_list:
     # skill item loop
@@ -89,39 +89,33 @@ service:
   enable: true
   title: "SERVICES"
   service_list:
-    # service item loop
+    - name: "Brand Building"
+      image: "images/icons/mobile-app.png"
+
     - name: "Web Development"
       image: "images/icons/web-development.png"
 
-    # service item loop
     - name: "Graphic Design"
       image: "images/icons/graphic-design.png"
 
-    # service item loop
-    - name: "Database Management"
+    - name: "Audio Production"
       image: "images/icons/dbms.png"
 
-    # service item loop
     - name: "Software Development"
       image: "images/icons/software-development.png"
 
-    # service item loop
-    - name: "Digital Marketing"
+    - name: "Video Production"
       image: "images/icons/marketing.png"
-
-    # service item loop
-    - name: "Mobile App Development"
-      image: "images/icons/mobile-app.png"
 
 ############################## call to action #########################
 call_to_action:
   enable: true
   bg_image: "images/backgrounds/need-service.jpg"
-  title: "NEED A SERVICE?"
+  title: "Building A Brand?"
   button:
     enable: true
-    label: "SAY HELLO!"
-    link: "#contact"
+    label: "Logo Design Form"
+    link: "https://docs.google.com/forms/d/17fgHjkbN8ZsJPJYRbU6rTYH_jQlkJkjLccWXiQRJRmM"
 
 ############################# portfolio ################################
 portfolio:
@@ -252,26 +246,25 @@ funfacts:
   enable: true
   funfacts_list:
     # funfacts item loop
-    - name: "HANDS TO WORK"
+    - name: "BRANDS DELIVERED"
       image: "images/icons/works.png"
       count: "100"
 
     # funfacts item loop
-    - name: "HAPPY CLIENT"
+    - name: "CLIENTS SERVED"
       image: "images/icons/happy.png"
       count: "200"
 
     # funfacts item loop
-    - name: "FINISHED PROJECT"
+    - name: "COMPLETED PROJECTS"
       image: "images/icons/project.png"
       count: "250"
-
-    # funfacts item loop
-    - name: "CUPS OF COFFEE"
-      image: "images/icons/coffee.png"
-      count: "150"
 
 ############################## contact ###########################
 contact:
   enable: true
-  title: "SAY HELLO!"
+  title: "@synonymous2"
+
+  ############################## contact form ###########################
+form:
+  enable: false

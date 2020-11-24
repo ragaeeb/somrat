@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://synonymous2.com"
-title = "Synonymous Arts"
 theme = "somrat"
+title = "Synonymous Arts"
 # disable language
 disableLanguages = [] # disable language from here
 
@@ -43,48 +43,41 @@ link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
 [[params.plugins.js]]
 link = "plugins/owl-carousel/owl.carousel.min.js"
 
-
 ############################## navigation ###############################
 
 # main menu
 [[menu.main]]
-name = "Home"
 URL = "#home"
+name = "Home"
 weight = 1
 
 [[menu.main]]
-name = "About me"
 URL = "#about"
+name = "About me"
 weight = 2
 
 [[menu.main]]
-name = "Service"
-URL = "#service"
+URL = "#portfolio"
+name = "Portfolio"
 weight = 3
 
 [[menu.main]]
-name = "Portfolio"
-URL = "#portfolio"
+URL = "#testimonial"
+name = "Testimonials"
 weight = 4
 
 [[menu.main]]
-name = "Testimonial"
-URL = "#testimonial"
-weight = 5
-
-[[menu.main]]
-name = "Contact"
 URL = "#contact"
-weight = 6
-
+name = "Contact"
+weight = 5
 
 #################### default parameters ################################
 [params]
-logo_light = "images/logo.png"
 logo_dark = "images/logo-dark.png"
+logo_light = "images/logo.png"
 # Meta data
-description = "This is meta description"
 author = "somrat"
+description = "This is meta description"
 # contact form action
 contact_form_action = "" # contact form works with https://formspree.io
 # Google analytics
@@ -92,33 +85,36 @@ google_analytics_id = "" # your id
 
 # Preloader
 [params.preloader]
-enable = true
+
+enable = true 
 preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
-  
 ############################# social site ########################
 [[params.social]]
-icon = "fa-facebook-f" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-link = "https://www.facebook.com/synonymous2"
+icon = "fa-facebook-f"
+link = "https://facebook.com/synonymous2"
 
 [[params.social]]
-icon = "fa-twitter" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
+icon = "fa-twitter"
 link = "https://twitter.com/synonymous2"
 
 [[params.social]]
-icon = "fa-instagram" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-link = "https://www.instagram.com/synonymous2"
+icon = "fa-instagram"
+link = "https://instagram.com/synonymous2"
 
 [[params.social]]
-icon = "fa-github" # fontawesome icon 4.7.0 : https://fontawesome.com/v4.7.0/icons/
-link = "https://github.com/ragaeeb"
+icon = "fa-soundcloud"
+link = "https://soundcloud.com/synonymous2"
 
+[[params.social]]
+icon = "fa-youtube"
+link = "https://youtube.com/geniewiz"
 
 ################################### English language #####################################
 [Languages.en]
-languageName = "En"
-languageCode = "en-us"
 contentDir = "content/english"
-weight = 1
 home = "Home"
+languageCode = "en-us"
+languageName = "En"
+weight = 1
 # copyright
 copyright = "2020 Synonymous Arts. All Rights Reserved."

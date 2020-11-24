@@ -234,7 +234,7 @@
     {{ with .content }} <p class="text-white">{{ . | markdownify }}</p> {{ end }}
     {{ if .button.enable }}
     {{ with .button }}
-    <a href="{{ .link }}">{{ .label }}</a>
+    <a href="{{ .link }}" target="_blank">{{ .label }}</a>
     {{ end }}
     {{ end }}
   </div>
@@ -464,6 +464,7 @@
     <div class="row">
       <div class="contact-holder col-lg-8 offset-lg-2 col-sm-8 offset-sm-2">
         <h1 class="wow fadeInUp" data-wow-duration="1.5s">{{ $data.homepage.contact.title }}</h1>
+        {{ if $data.homepage.form.enable }}
         <form method="POST" action="{{ .Site.Params.contact_form_action }}" data-toggle="validator">
           <div class="form-container row wow fadeInUp" data-wow-duration="1.5s">
             <div class="form-group col-lg-6">
@@ -483,6 +484,7 @@
             </div>
           </div>
         </form>
+        {{ end }}
       </div>
     </div>
     <div class="row">
